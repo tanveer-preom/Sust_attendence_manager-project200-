@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/course_id"
+            android:textStyle="bold"
+            android:textColor="#B37f"
+            android:textSize="22sp"
+            android:text="Course Name: Cse200\nYear Id: 2012\nSemester Id : 2\nDept : Cse"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="17sp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Consideration Time : "
+                />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/consideration_time"
+                android:hint=" (0 min)"
+                />
+        </LinearLayout>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/loginbutton"
+            android:text="publish"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:onClick="onclick"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

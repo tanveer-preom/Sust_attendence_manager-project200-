@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:scrollbars="none"
+
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:id="@+id/row_parent"
+    android:background="#ffffff"
+    >
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/icon"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/person"
+        />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/reg_no"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_alignParentTop="true"
+        android:text="2012331007"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Md Tanveer Islam Preom"
+        android:layout_below="@id/reg_no"
+        android:layout_toRightOf="@+id/icon"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="present=yes\nLate=5min\nPTL=yes"
+        android:layout_toRightOf="@+id/name"
+        android:layout_marginTop="15dp"
+        android:id="@+id/present"
+        />
+    <Button
+        android:id="@+id/change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/present"
+        android:layout_marginLeft="20dp"
+        android:background="#ffffff"
+        android:textColor="#536DFE"
+        android:text="Change"
+        android:layout_marginTop="15dp"
+        />
+
+
+
+
+
+</RelativeLayout>
+</HorizontalScrollView>

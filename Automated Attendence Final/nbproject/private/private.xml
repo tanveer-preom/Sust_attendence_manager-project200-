@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/media/tanveer/External/Automated%20Attendence%20Final/src/java/com/automated_attendence/servlets/CourseLoader.java</file>
+            <file>file:/media/tanveer/External/Automated%20Attendence%20Final/web/publishpdf.jsp</file>
+            <file>file:/media/tanveer/External/Automated%20Attendence%20Final/src/java/com/automated_attendence/servlets/Courses.java</file>
+            <file>file:/media/tanveer/External/Automated%20Attendence%20Final/web/WEB-INF/web.xml</file>
+            <file>file:/media/tanveer/External/Automated%20Attendence%20Final/src/java/com/automated_attendence/servlets/AddStudents.java</file>
+            <file>file:/media/tanveer/External/Automated%20Attendence%20Final/src/java/com/automated_attendence/servlets/PublishAttendance.java</file>
+            <file>file:/media/tanveer/External/Automated%20Attendence%20Final/src/java/com/automated_attendence/Instructor/PrevClass.java</file>
+            <file>file:/media/tanveer/External/Automated%20Attendence%20Final/src/java/com/automated_attendence/servlets/Students.java</file>
+            <file>file:/media/tanveer/External/Automated%20Attendence%20Final/src/java/com/automated_attendence/servlets/Login.java</file>
+            <file>file:/media/tanveer/External/Automated%20Attendence%20Final/src/java/com/automated_attendence/servlets/LoadStudents.java</file>
+            <file>file:/media/tanveer/External/Automated%20Attendence%20Final/nbproject/build-impl.xml</file>
+            <file>file:/media/tanveer/External/Automated%20Attendence%20Final/src/java/com/automated_attendence/Instructor/InstructorInfo.java</file>
+            <file>file:/media/tanveer/External/Automated%20Attendence%20Final/src/java/com/automated_attendence/servlets/PrintResult.java</file>
+            <file>file:/media/tanveer/External/Automated%20Attendence%20Final/src/java/com/automated_attendence/servlets/LoadStudent.java</file>
+            <file>file:/media/tanveer/External/Automated%20Attendence%20Final/web/addclass.jsp</file>
+            <file>file:/media/tanveer/External/Automated%20Attendence%20Final/src/java/com/automated_attendence/Instructor/ResultPdf.java</file>
+            <file>file:/media/tanveer/External/Automated%20Attendence%20Final/web/processpdf.jsp</file>
+            <file>file:/media/tanveer/External/Automated%20Attendence%20Final/src/java/com/automated_attendence/servlets/UpdateAttendance.java</file>
+            <file>file:/media/tanveer/External/Automated%20Attendence%20Final/src/java/com/automated_attendence/servlets/LoadClasses.java</file>
+            <file>file:/media/tanveer/External/Automated%20Attendence%20Final/src/java/com/automated_attendence/servlets/AddClass.java</file>
+            <file>file:/media/tanveer/External/Automated%20Attendence%20Final/src/java/com/automated_attendence/servlets/JArrayConverter.java</file>
+        </group>
+    </open-files>
+</project-private>

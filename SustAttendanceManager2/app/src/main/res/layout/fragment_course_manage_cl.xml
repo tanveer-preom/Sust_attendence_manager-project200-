@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tanveer.sustattendancemanager.CourseManageCl"
+    android:background="#ffffff"
+    >
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/classes"
+        ></ListView>
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom|right"
+        android:background="@drawable/addmat"
+        android:textColor="#9Cffffff"
+        android:shadowColor="#000000"
+        android:shadowRadius="10"
+        android:id="@+id/clAdd"
+        android:layout_marginBottom="6dp"
+        android:layout_marginRight="5dp"
+        />
+
+</FrameLayout>

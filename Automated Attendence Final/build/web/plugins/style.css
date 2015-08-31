@@ -1,0 +1,11 @@
+.table-bordered>tbody>tr>td>input,.table-bordered>tbody>tr>td{
+    
+    width:125px;
+    
+}
+.fontr{
+    font-size:20px;
+}
+.box.box-info,.checkbox.icheck{
+    display:none;
+}

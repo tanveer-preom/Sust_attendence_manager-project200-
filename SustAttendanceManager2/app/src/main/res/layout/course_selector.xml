@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    style="@style/ThemeOverlay.AppCompat.Light"
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Select Accepting Department :"
+    android:textStyle="bold"
+    android:textColor="#66000000"
+
+    android:layout_marginTop="16dp"
+    android:layout_marginLeft="8dp"
+    android:textSize="18sp"
+    />
+
+    <Spinner
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/depts"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Year :"
+        android:textStyle="bold"
+        android:textColor="#66000000"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:textSize="18sp"
+        />
+
+    <Spinner
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/year"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Semester :"
+        android:textStyle="bold"
+        android:textColor="#66000000"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:textSize="18sp"
+        />
+
+    <Spinner
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/semester"
+
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:layout_weight=".5"
+            android:id="@+id/ok"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_weight=".5"
+            android:id="@+id/cancel"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
